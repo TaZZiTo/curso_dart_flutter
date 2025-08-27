@@ -5,7 +5,9 @@ class ColumnExample extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Container(
+      width: 300,
+      child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -16,6 +18,8 @@ class ColumnExample extends StatelessWidget {
         Text('Hola, soy Rubén ✌️👌'), 
         Text('Hola, soy Rubén ✌️👌'),
       ],
+    ),
     );
+    
   }
 }
