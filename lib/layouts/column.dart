@@ -6,20 +6,22 @@ class ColumnExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 300,
+      color: Colors.blue,
+      //height: 200,
+      width: double.infinity,
       child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Text('Hola, soy Rubén ✌️👌'),
-        Text('Hola, soy Rubén ✌️👌'),
-        Text('Hola, soy Rubén ✌️👌'),
-        Text('Hola, soy Rubén ✌️👌'),
-        Text('Hola, soy Rubén ✌️👌'), 
-        Text('Hola, soy Rubén ✌️👌'),
-      ],
-    ),
+        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Text('Hola, soy Rubén ✌️👌'),
+          Text('Hola, soy Rubén ✌️👌'),
+          Text('Hola, soy Rubén ✌️👌'),
+          Text('Hola, soy Rubén ✌️👌'),
+          Text('Hola, soy Rubén ✌️👌'),
+          Text('Hola, soy Rubén ✌️👌'),
+        ],
+      ),
     );
-    
   }
 }
