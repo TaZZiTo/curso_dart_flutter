@@ -19,7 +19,7 @@ class TextExample extends StatelessWidget {
           'Texto coloreado',
           style: TextStyle(
             color: Colors.red,
-            fontSize: 30,
+            fontSize: 20,
             backgroundColor: Colors.blue,
           ),
         ),
@@ -42,7 +42,7 @@ class TextExample extends StatelessWidget {
           'Texto Largo Texto Largo Texto Largo Texto Largo Texto Largo Texto Largo Texto Largo Texto Largo Texto Largo Texto Largo',
           style: TextStyle(
             letterSpacing: 5,
-            fontSize: 20,
+            fontSize: 30,
           ),
           maxLines: 2,// Dice el numero maximo de lineas, va fuera del TextStyle
           overflow: TextOverflow.ellipsis, // Muestra puntos suspensivos para indicar que hay mas texto
