@@ -6,10 +6,10 @@ class ImageExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        Image.network('https://media1.tenor.com/m/p_uI2cRfjMoAAAAd/mr-bean-holiday-mister-bean-holiday.gif'),
         Image.asset('assets/images/retrato.png',width: 1000, fit: BoxFit.fill,),//Se pueden poner atributos
+        Image.network('https://media1.tenor.com/m/p_uI2cRfjMoAAAAd/mr-bean-holiday-mister-bean-holiday.gif'),
         ],
     );
   }
